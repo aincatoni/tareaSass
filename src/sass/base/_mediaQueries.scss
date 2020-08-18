@@ -1,0 +1,30 @@
+/****** MEDIA QUERIES / BREAKPOINTS ***/
+
+@media (max-width: 576px) {
+  /* Estos estilos solo se aplicarán hasta el tamaño indicado */
+  main {
+   max-width: 80%;
+   margin: 0 auto; 
+  }
+  .proyectos {
+    width: 100%;
+  }
+  .projectCard {
+    width: 100%;
+  }
+  .con-padding {
+    padding: 0;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Solo se aplicarán entre los tamaños indicados */
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Solo se aplicarán entre los tamaños indicados */
+}
+
+@media (min-width: 1200px) {
+  /* Solo se aplicarán entre los tamaños indicados */
+}

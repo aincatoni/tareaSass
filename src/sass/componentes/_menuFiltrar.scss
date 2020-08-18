@@ -1,0 +1,19 @@
+.menuFiltrarTrabajos {
+  margin: 0 20px;
+}
+.menuFiltrarTrabajos ul {
+  display: flex;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.menuFiltrarTrabajos ul li {
+  margin: 0 10px 0 0;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.menuFiltrarTrabajos ul li:last-child {
+  border-right: none;
+
+}

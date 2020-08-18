@@ -1,0 +1,31 @@
+footer {
+  background-color: #17161a;
+  padding: 20px 0;
+  color: white;
+}
+
+.socialIcons ul {
+  display: flex;
+}
+
+.socialIcons ul li {
+  list-style: symbols();
+  margin: 0 15px;
+}
+
+.footerFirst {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footeerLast {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(136, 136, 136, 0.1);
+  padding: 10px 0;
+  align-items: center;
+  margin: 15px 0 0 0;
+  flex-wrap: wrap;
+}

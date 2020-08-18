@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.flex {
+  display: flex;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: #5600ff;
+  box-sizing: border-box;
+}
+
+.big-container {
+  background-color: white;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.con-padding {
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+.tituloPrincipal h1 {
+  font-weight: 800;
+  font-size: 2em;
+}
